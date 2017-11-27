@@ -89,7 +89,7 @@ public class GaussianEliminationSquareMatrices {
     assert augmentedMatrix != null : "The augmented matrix should not be null";
     assert augmentedMatrix.length > 0 : "The augmented matrix should not be empty";
     assert augmentedMatrix[0].length == augmentedMatrix.length + 1 : "The number of columns in the augmented matrix should be the number of rows + 1";
-    assert pivot>0 && pivot<augmentedMatrix[0].length : "The pivot element should be between 0 and the number of columns of the augmented matrix";
+   // assert pivot>0 && pivot<augmentedMatrix[0].length : "The pivot element should be between 0 and the number of columns of the augmented matrix";
     int numRows = augmentedMatrix.length;
     int numCols = augmentedMatrix[0].length;
     int row;
